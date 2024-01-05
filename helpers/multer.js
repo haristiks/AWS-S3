@@ -18,7 +18,7 @@ const upload = multer({
         cb(null, true);
       }
     },
-    limits: { fileSize: 1024 * 1024 * 5 }, // 5MB upload limit
+    limits: { fileSize: 1024 * 1024 * 10 }, // 10MB upload limit
     fileExtensions: ['png', 'jpg', 'jpeg', 'gif', 'pdf', 'docx', 'xls', 'ppt'], // Allowed extensions
     //Allowed mimetypes
     type: [

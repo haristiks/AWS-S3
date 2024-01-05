@@ -1,6 +1,7 @@
 const { Upload } = require("@aws-sdk/lib-storage");
 const { S3Client, GetObjectCommand } = require("@aws-sdk/client-s3");
 const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
+const sharp = require("sharp");
 const fs = require("fs");
 
 // Loading AWS credentials and S3 configuration from environment variables
