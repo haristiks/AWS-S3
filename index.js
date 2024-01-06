@@ -5,13 +5,6 @@
 // } = require("@aws-sdk/client-s3");
 // const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
 
-// const s3Client = new S3Client({
-//   region: "ap-south-1",
-//   credentials: {
-//     accessKeyId: "AKIAYOIFOVNVBETWNR2S",
-//     secretAccessKey: "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",
-//   },
-// });
 
 // async function getObjectURL(key) {
 //   const command = new GetObjectCommand({
