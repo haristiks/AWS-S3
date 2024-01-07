@@ -5,7 +5,6 @@
 // } = require("@aws-sdk/client-s3");
 // const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
 
-
 // async function getObjectURL(key) {
 //   const command = new GetObjectCommand({
 //     Bucket: "bgon.ams.dev",
